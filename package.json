@@ -1,0 +1,46 @@
+{
+  "name": "progressbars",
+  "version": "1.0.0",
+  "description": "Progressbars assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0",
+      "react"
+    ]
+  },
+  "author": "S.Jeyashanker",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "reactstrap": "^6.0.1",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "sass-loader": "^7.0.2",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.3.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
